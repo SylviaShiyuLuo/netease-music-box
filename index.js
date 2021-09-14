@@ -40,7 +40,7 @@ const {
     const line = [
       icon[index].padEnd(2),
       name,
-      ' - ',
+      '-',
       `${playCount}`,
       'plays',
     ];
