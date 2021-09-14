@@ -38,7 +38,7 @@ const {
     let name = `${cur.song.name} - ${artists.join('/')}`;
 
     const line = [
-      icon[index].padEnd(2),
+      icon[index].pad(3),
       name,
       ' · ',
       `${playCount}`,
